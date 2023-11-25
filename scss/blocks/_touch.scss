@@ -11,9 +11,6 @@
     border-top: 1px solid #dadada;
     border-bottom: 1px solid #dadada;
 }
-.touch__content-left {
-    width: 350px;
-}
 .touch__content-heading {
     color: #33323D;
     font-family: Ibarra Real Nova;
@@ -54,4 +51,20 @@
         margin-top: 0;
     }
     
+}
+
+@media only screen and (max-width:280px) {
+    .touch__content{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .touch__content-heading{
+        font-size: 35px;
+    }
+    .touch__content-parag{
+        text-align: center;
+    }
+    .touch__content-right-icon{
+        display: none;
+    }
 }

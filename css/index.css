@@ -116,6 +116,7 @@ img {
   }
 }
 .footer {
+  width: 100%;
   background-color: #33323D;
 }
 
@@ -723,10 +724,6 @@ img {
   border-bottom: 1px solid #dadada;
 }
 
-.touch__content-left {
-  width: 350px;
-}
-
 .touch__content-heading {
   color: #33323D;
   font-family: Ibarra Real Nova;
@@ -767,6 +764,21 @@ img {
     margin-top: 0;
   }
 }
+@media only screen and (max-width: 280px) {
+  .touch__content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .touch__content-heading {
+    font-size: 35px;
+  }
+  .touch__content-parag {
+    text-align: center;
+  }
+  .touch__content-right-icon {
+    display: none;
+  }
+}
 .contact {
   margin-bottom: 109px;
 }
@@ -775,10 +787,6 @@ img {
   display: flex;
   align-items: start;
   justify-content: space-between;
-}
-
-.contact__content-left {
-  width: 350px;
 }
 
 .contact__content-heading {
@@ -795,6 +803,13 @@ img {
 @media only screen and (max-width: 920px) {
   .contact__content {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .contact__content-heading {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
 .form__name {
@@ -958,6 +973,17 @@ img {
     width: 400px;
   }
 }
+@media only screen and (max-width: 440px) {
+  .form__name-wrapp {
+    width: 350px;
+  }
+  .form__email-wrapp {
+    width: 350px;
+  }
+  .form__message-wrapp {
+    width: 350px;
+  }
+}
 @media only screen and (max-width: 380px) {
   .form__name-wrapp {
     width: 280px;
@@ -967,6 +993,20 @@ img {
   }
   .form__message-wrapp {
     width: 280px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .form__name-wrapp {
+    width: 200px;
+  }
+  .form__email-wrapp {
+    width: 200px;
+  }
+  .form__message-wrapp {
+    width: 200px;
+  }
+  .form__message-wrapp {
+    height: 80px;
   }
 }
 .site-btn {
