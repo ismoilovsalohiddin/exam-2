@@ -1,0 +1,106 @@
+.question {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.question__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.question__content-parag {
+    color: #33323D;
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.357px; 
+    margin: 0;
+    width: 350px;
+}
+.question__content-line {
+    display: inline-block;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.15;
+    width: 534px;
+    background: #33323D;       
+}
+
+@media only screen and (max-width: 1130px) {
+    .question__content-line {
+        height: 1px;
+        flex-shrink: 0;
+        opacity: 0.15;
+        width: 480px;
+        background: #33323D;       
+    }
+    
+}
+@media only screen and (max-width: 1075px) {
+    .question__content-line {
+        height: 1px;
+        flex-shrink: 0;
+        opacity: 0.15;
+        width: 390px;
+        background: #33323D;       
+    }
+    
+}
+@media only screen and (max-width: 985px) {
+    .question__content-line {
+        height: 1px;
+        flex-shrink: 0;
+        opacity: 0.15;
+        width: 320px;
+        background: #33323D;       
+    }
+    
+}
+@media only screen and (max-width: 885px) {
+    .question__content-line {
+        height: 1px;
+        flex-shrink: 0;
+        opacity: 0.15;
+        width: 240px;
+        background: #33323D;       
+    }
+    
+}
+@media only screen and (max-width: 820px) {
+    .question__content-line {
+        height: 1px;
+        flex-shrink: 0;
+        opacity: 0.15;
+        width: 160px;
+        background: #33323D;       
+    }
+    
+}
+@media only screen and (max-width: 730px) {
+    .question__content-line {
+        height: 1px;
+        flex-shrink: 0;
+        opacity: 0.15;
+        width: 100px;
+        background: #33323D;       
+    }
+    
+}
+@media only screen and (max-width: 630px) {
+    .question {
+        margin-top: 115px;
+        margin-bottom: 80px;
+    }
+    .question__content {
+        flex-direction: column;
+    }
+    .question__content-parag {
+        text-align: center;
+        margin-bottom: 40px;
+        width: 311px;
+    }
+    .question__content-line {
+        display: none;       
+    }
+}

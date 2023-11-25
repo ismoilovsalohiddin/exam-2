@@ -1,0 +1,33 @@
+.modal{
+    position: fixed;
+    top: 88px;
+    right: 32px;
+    display: none;
+    flex-direction: column;
+    padding: 40px 65px 40px 65px;
+    background-color: #33323D;    
+}
+
+.js--open{
+    display: flex;
+}
+
+.modal__link{
+    color: #FFF;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;   
+    margin: 0 auto; 
+}
+
+.modal__link:not(:last-child){
+    margin-bottom: 32px;
+}
+
+

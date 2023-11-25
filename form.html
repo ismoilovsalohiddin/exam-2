@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__left">
+                <a href="home.html" class="header__left-link">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="header__right">
+                <nav class="header__right-nav">
+                    <a href="home.html" class="header__right-link">home</a>
+                    <a href="portfolio.html" class="header__right-link">portfolio</a>
+                    <a href="form.html" class="header__right-link">contact me</a>
+                </nav>
+                <button type="button" class="header__right-button1">
+                    <img class="header__right-button__img1" src="img/header_button.svg" alt="icon">
+                </button>
+                <button type="button" class="header__right-button2">
+                    <img class="header__right-button__img2" src="img/close-btn.svg" alt="icon">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="touch">
+                <div class="touch__content">
+                    <div class="touch__content-left">
+                        <h1 class="touch__content-heading">Get in Touch</h1>
+                    </div>
+                    <div class="touch__content-right">
+                        <p class="touch__content-parag">I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I’m also happy to hear about opportunites that don’t fit that description. I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.</p>
+                        <div class="touch__content-right-icon">
+                            <img src="img/icons.svg" alt="icons">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="contact__content">
+                    <div class="contact__content-left">
+                        <h2 class="contact__content-heading">Contact Me</h2>
+                    </div>
+                    <form action="https://echo.htmlacademy.ru" class="form">
+                        <div class="form__name">
+                            <label class="form__label" for="name">Name</label>
+                            <div class="form__name-wrapp">
+                                <input required id="name" class="form__name-input" type="text" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form__email">
+                            <label for="email" class="form__label">Email Addresss</label>
+                            <div class="form__email-wrapp">
+                                <input required id="email" type="email" class="form__email-input" placeholder="email@example.com">
+                            </div>
+                        </div>
+                        <div class="form__message">
+                            <label for="message" class="form__label">Message</label>
+                            <div class="form__message-wrapp">
+                                <input class="form__message-input" type="text" id="message" placeholder="How can I help?">
+                            </div>
+                        </div>
+                        <button type="submit" class="form__button">send message</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <nav class="footer__nav">
+                    <a href="home.html" class="footer__content-logo">
+                        <img src="img/footer-logo.svg" alt="logo">
+                    </a>
+                    <div class="footer__nav-link">
+                        <a href="home.html" class="footer__nav-link">home</a>
+                        <a href="portfolio.html" class="footer__nav-link">portfolio</a>
+                        <a href="form.html" class="footer__nav-link">contanct me</a>
+                    </div>
+                </nav>
+                <div class="footer__content-icon">
+                    <img src="img/git-icon.svg" alt="icon">
+                    <img src="img/twitter-icon.svg" alt="icon">
+                    <img src="img/in-icon.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal">
+        <a href="home.html" class="modal__link ">home</a>
+        <a href="portfolio.html" class="modal__link">portfolio</a>
+        <a href="form.html" class="modal__link">contact me</a>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

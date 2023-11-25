@@ -1,0 +1,27 @@
+.contact {
+    margin-bottom: 109px;
+}
+.contact__content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.contact__content-left {
+    width: 350px;
+}
+.contact__content-heading {
+    color: #33323D;
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+    margin: 0;    
+}
+
+@media only screen and (max-width: 920px) {
+    .contact__content{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,57 @@
+.touch {
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+.touch__content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+.touch__content-left {
+    width: 350px;
+}
+.touch__content-heading {
+    color: #33323D;
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+    margin: 0;   
+    margin-bottom: 24px; 
+}
+.touch__content-right {
+    width: 635px;
+}
+.touch__content-parag {
+    color: #33323D;
+    font-family: Public Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    margin: 0;    
+}
+
+@media only screen and (max-width: 980px) {
+    .touch__content{
+        flex-direction: column;
+    }
+    
+    .touch__content-right{
+        max-width: 1110px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .touch{
+        margin-top: 0;
+    }
+    
+}
